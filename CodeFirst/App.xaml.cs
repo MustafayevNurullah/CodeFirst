@@ -30,6 +30,13 @@ namespace CodeFirst
                     Surname = "Mustafayev",
                     Mark = 10,
                 };
+                //CodeFirst.Entity.Student student1 = new Entity.Student()
+                //{
+                //    Name = "Nuruasdllah",
+                //    Surname = "Mustafayev",
+                //    Mark = 10,
+                //};
+                //db.Students.Add(student1);
                 db.Students.Add(student);
                 db.Groups.Add(group);
                 db.SaveChanges();
